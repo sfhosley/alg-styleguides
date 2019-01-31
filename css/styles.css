@@ -18,8 +18,27 @@ body {
   color: rgba(255,255,255,.9);
 }
 
+a {
+  color: rgba(255,255,255,.9);
+  padding-bottom: .2rem;
+  border-bottom: .1rem solid transparent;
+  transition: all ease .2s;
+}
+a:hover {
+  border-bottom-color: rgb(0,146,177);
+}
+
 header {
+  display: flex;
   padding: 1rem;
+}
+a.site-title {
+  width: 10rem;
+  height: 2rem;
+  background: transparent url('../img/alg-logo-white.svg') 50% 50% no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+  border: none;
 }
 
 main {
@@ -32,3 +51,26 @@ h1 {
   font-weight: 900;
   color: rgba(255,255,255,.9);
 }
+ul.brands {
+  display: flex;
+}
+ul.brands li {
+  margin: 1rem;
+}
+ul.brands li a.av:hover {
+  color: rgb(1,70,141);
+  border-bottom-color: rgb(207,43,4);
+}
+ul.brands li a.bb:hover {
+  color: rgb(55,130,119);
+  border-bottom-color: rgb(247,96,73);
+}
+ul.brands li a.cc:hover {
+  color: rgb(0,128,134);
+  border-bottom-color: rgb(204,65,115);
+}
+
+
+
+
+
