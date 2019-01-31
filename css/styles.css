@@ -54,6 +54,7 @@ h1 {
 }
 ul.brands {
   display: flex;
+  flex-wrap: wrap;
 }
 ul.brands li {
   margin: 1rem;
